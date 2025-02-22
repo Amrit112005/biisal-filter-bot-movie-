@@ -44,8 +44,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "54c2e983491593abe11b4bfa9fea1829
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortxlinks.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "76511743ed268428ae6208d2715bed3609a999ee")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'inshorturl.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "21600"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "43200"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "43200"))
 
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
 QUALITIES = ["HdRip","web-dl" ,"bluray", "hdr", "fhd" , "240p", "360p", "480p", "540p", "720p", "960p", "1080p", "1440p", "2K", "2160p", "4k", "5K", "8K"]
